@@ -3,3 +3,8 @@ body {
   padding: 0;
   margin: 0;
 }
+
+:root {
+  --main-gray: #3a3a3a;
+  --main-green: #bdff00;
+}
