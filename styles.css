@@ -20,6 +20,7 @@ header {
   background-color: var(--main-gray);
   width: 100%;
   justify-content: space-between;
+
 }
 
 .boxname1, .boxname2 {
@@ -30,6 +31,7 @@ header {
   line-height: 46px;
   color: white;
   text-align: right;
+  padding-left: 2%;
 
 }
 
