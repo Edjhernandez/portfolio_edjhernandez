@@ -10,16 +10,20 @@ body {
   --main-green: #bdff00;
 }
 
-.rectangle1 {
-  background-color: var(--main-gray);
+.container {
   display: flex;
+ 
+}
+
+header {
+  display: flex;
+  background-color: var(--main-gray);
   width: 100%;
-  
-  
+  justify-content: space-between;
 }
 
 .boxname1, .boxname2 {
-  width: 20%;
+  
   font-family: 'Jost','Times New Roman', Times, serif;
   font-weight: 400;
   font-size: 32px;
@@ -31,14 +35,15 @@ body {
 
 .boxname2 {
   color: var(--main-green);
-  margin-left: 1%;
+  
   text-align: left;
 }
 
 .boxmenu {
-  width: 60%;
+  
   display: flex;
   align-items: center;
+  flex-grow: 1;
   
   
   
